@@ -1,3 +1,4 @@
+El principio de mi proyecto Git
 Clase 2
 comandos:
 git add nombre.extension
