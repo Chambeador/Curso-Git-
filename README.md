@@ -1,9 +1,12 @@
 # Curso Git
 
-## ✨ El principio de mi proyecto Git
+✨ El principio de mi proyecto Git
 
-Este es el inicio de mi proyecto usando Git.
-![Logo de Git](https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png)
+<p align="center">
+  <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="Logo de Git" width="250"/>
+</p>
+
+<br>
 💻 *¡Vamos con todo!*
 ### Comandos:
 - `git add nombre.extension`: Lleva un archivo al área de *staged* (preparación).
