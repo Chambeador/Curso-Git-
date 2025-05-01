@@ -3,7 +3,7 @@
 ## ✨ El principio de mi proyecto Git
 
 Este es el inicio de mi proyecto usando Git.
-
+![Logo de Git](C:\Users\miguel\Desktop\git.png)
 💻 *¡Vamos con todo!*
 ### Comandos:
 - `git add nombre.extension`: Lleva un archivo al área de *staged* (preparación).
