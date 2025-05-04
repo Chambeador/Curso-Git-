@@ -75,8 +75,63 @@ Cuando Git no puede fusionar automáticamente dos ramas debido a cambios contrad
 
 
 
-## Clase 3:
+## Clase 4: Git y GitHub
 
-Estamos creando ramas clase 3
-estamos trabajando con conflictos
-vamos a crear un conflicto ahora vamos
+### Git
+Git es un sistema de control de versiones que permite gestionar el historial de cambios de un proyecto, nos facilita el trabajo en equipo y el manejo de versiones de manera eficiente.
+
+### GitHub
+GitHub es un servicio de alojamiento en la nube para proyectos de código fuente, que permite almacenar y gestionar repositorios Git de manera remota.
+
+### Comandos de Git
+
+- `git remote add origin url`: Conecta tu repositorio local a un repositorio remoto en GitHub.
+- `git remote prune origin`: Elimina las referencias a ramas remotas que ya no existen en el repositorio remoto.
+- `git clone url`: Clona un repositorio remoto a tu máquina local.
+- `git branch -a`: Muestra todas las ramas locales y remotas, usando diferentes colores para diferenciar.
+
+### Ramas Remotas
+
+Las ramas remotas son las versiones de las ramas que están en el repositorio remoto. 
+- `git remote -v`: Muestra las URLs de los remotos configurados.
+
+### Git Push y Git Pull
+
+#### Diferencia entre `git push` y `git pull`
+
+- **`git push`**: Sube los cambios desde tu repositorio local hacia el repositorio remoto.
+  - `git push`: Sube los cambios de la rama activa.
+  - `git push --all`: Sube todas las ramas locales.
+  - `git push -u origin rama`: Establece la rama remota de seguimiento para la rama local.
+  - `git push -d origin rama`: Elimina una rama remota.
+  - `git push -f`: Fuerza la subida de cambios, sobrescribiendo cambios remotos.
+
+- **`git pull`**: Trae los cambios del repositorio remoto hacia tu repositorio local.
+  - `git pull`: Hace un fetch seguido de un merge.
+  - `git fetch`: Obtiene los cambios remotos sin hacer merge.
+  - `git pull origin rama`: Trae cambios de una rama remota específica.
+  - `git pull --all`: Trae los cambios de todas las ramas remotas.
+
+#### Diferencias entre `git pull` y `git fetch`
+- `git fetch` solo descarga los cambios del repositorio remoto sin integrarlos en tu rama local.
+- `git pull` descarga los cambios y los fusiona automáticamente en tu rama local.
+
+### Pull Request (PR)
+
+#### ¿Qué es un Pull Request?
+Un *pull request* (PR) es una solicitud para que los cambios hechos en una rama sean revisados y fusionados en el repositorio original. Es una manera de colaborar y contribuir en proyectos.
+
+#### ¿Cómo hacer un Pull Request?
+1. Sube tu rama al repositorio remoto con `git push`.
+2. Luego, tienes dos maneras de crear un PR:
+   - Si la rama fue subida recientemente, GitHub te mostrará una opción para crear el PR en la página del repositorio.
+   - O, puedes ir al apartado de *Pull Requests* en GitHub y crear uno manualmente.
+
+#### Hacer una buena Pull Request
+- Enfoca tu PR en **una sola cosa**. Es más fácil de revisar y aceptar un PR que hace algo específico que uno que modifica varias cosas a la vez.
+- Explica claramente el propósito del PR.
+- Revisa tu código antes de enviar el PR para asegurarte de que está limpio y bien documentado.
+
+### Fork(Adicional)
+
+Un *fork* es una copia de un repositorio en tu cuenta de GitHub. Se utiliza para hacer cambios sin afectar el repositorio original, y es comúnmente utilizado para contribuir a proyectos de código abierto.
