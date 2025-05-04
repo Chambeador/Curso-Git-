@@ -10,9 +10,31 @@
 
  *¡Vamos con todo!*
 
-### Comandos:
-- `git add nombre.extension`: Lleva un archivo al área de *staged* (preparación).
-- `git status`: Muestra todos los archivos y su estado actual en el repositorio.
+## Clase 1: Git y Control de Versiones
+
+### ¿Qué es un control de versiones?
+Un control de versiones es un sistema que registra cada cambio que se realiza en el código fuente de un proyecto. Esto permite tener un histórico de todos los cambios, saber quién los hizo y cuándo.
+
+### ¿Por qué es tan importante un control de versiones?
+- **Rendimiento**: Solo se guarda lo necesario, optimizando el espacio.
+- **Seguridad**: Conserva un registro completo de todas las acciones realizadas.
+- **Flexibilidad**: No es necesario seguir un desarrollo lineal, puedes trabajar en ramas y fusionarlas cuando sea necesario.
+
+### Un poquito de historia...
+- **1990**: Nace CVS, el primer sistema de control de versiones, donde cada archivo tenía su propio número de versión.
+- **2005**: Después de la caída de BitKeeper, la comunidad de desarrollo de Linux (y en particular Linus Torvalds) crea **Git**.
+- **2008**: Se crea **GitHub**, desarrollado en Ruby on Rails.
+- **2018**: **Microsoft compra GitHub**. Hubo cierto temor respecto a este cambio, pero GitHub sigue siendo uno de los servicios más populares.
+
+### ¿Qué es un repositorio?
+El pilar de Git son los **repositorios**. Un repositorio es una carpeta en la que se almacenan las diferentes versiones de los archivos de un proyecto y el historial de los cambios realizados en ellos. Los repositorios pueden ser:
+- **Locales**: Están en tu ordenador.
+- **Remotos**: Están en un servidor externo (como GitHub).
+
+### Inicializar un proyecto con Git
+Para empezar a usar Git en un proyecto, debes inicializarlo con el comando:
+### Comandos de Git
+- `git init`: Inicializa un repositorio vacío en el directorio actual.
 
 ##  Clase 2: Comandos y Ramas
 En la clase 2 aprendimos los comandos mas basicos para trabajar con git y a crear, movernos entre ramas y a eliminar ramas.
@@ -50,7 +72,7 @@ A nivel tecnico es un nuevo apuntador hacia una de las confirmaciones.
 
 En la clase 3 aprendimos como fusionar ramas, como solucionar conflictos y las mejores practicas para eliminar ramas.
 
-### Merge de Ramas
+### Comandos Merge de Ramas
 
 - `git merge rama`: Fusiona la rama indicada con la rama activa.
 - `git merge --no-ff rama`: Fusiona la rama indicada, pero siempre crea un commit de merge, incluso si la fusión podría hacerse de manera "fast-forward".
