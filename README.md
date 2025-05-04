@@ -43,10 +43,36 @@ A nivel tecnico es un nuevo apuntador hacia una de las confirmaciones.
 - `git branch -d nombre`: Elimina una rama local (solo si ya fue fusionada).
 - `git branch -D nombre`: Fuerza la eliminación de una rama local (aunque no haya sido fusionada).
 
-### Diferencias entre `-d` y `-D` al eliminar ramas
 
-- `git branch -d nombre`: Elimina una rama **solo si ha sido fusionada** con la rama actual. Es una forma segura de borrar ramas.
-- `git branch -D nombre`: Elimina una rama **forzadamente**, aunque **no haya sido fusionada**.
+
+
+## Clase 3: Merge de Ramas y Conflictos
+
+En la clase 3 aprendimos como fusionar ramas, como solucionar conflictos y las mejores practicas para eliminar ramas.
+
+### Merge de Ramas
+
+- `git merge rama`: Fusiona la rama indicada con la rama activa.
+- `git merge --no-ff rama`: Fusiona la rama indicada, pero siempre crea un commit de merge, incluso si la fusión podría hacerse de manera "fast-forward".
+- `git merge --abort`: Cancela la fusión en curso y vuelve al estado anterior.
+
+### ¿Qué es Fast Forward?
+El **fast-forward** ocurre cuando la rama en la que estás no tiene cambios que se aparten de la rama que estás fusionando. En este caso, Git solo mueve el puntero de la rama actual al ultimo commit de la rama fusionada, sin crear un commit adicional.
+
+### Eliminar Ramas: ¿Por qué es importante?
+Eliminar ramas es una buena práctica. Las ramas deben crearse con un propósito específico y de corto plazo. Después de fusionarlas, eliminar las ramas innecesarias mantiene el repositorio limpio y organizado.
+
+### Comandos para Eliminar Ramas
+- `git branch -d <nombre>`: Elimina una rama **solo si ha sido fusionada** con la rama actual. Es una forma segura de borrar ramas.
+- `git branch -D <nombre>`: Elimina una rama **forzadamente**, incluso si **no ha sido fusionada**.
+
+### Conflictos en Git
+
+Cuando Git no puede fusionar automáticamente dos ramas debido a cambios contradictorios, se produce un **conflicto**. Para resolverlo, puedes usar:
+
+- `git diff`: Muestra las diferencias entre las ramas, lo que te ayudará a identificar el conflicto y solucionarlo manualmente si no estas usando Visual Studio Code.
+
+
 
 
 ## Clase 3:
