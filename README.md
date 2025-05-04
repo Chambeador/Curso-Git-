@@ -17,3 +17,5 @@
 ## Clase 3:
 
 Estamos creando ramas clase 3
+
+estamos trabajando con conflictos
