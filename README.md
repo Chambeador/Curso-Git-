@@ -59,6 +59,11 @@ En la clase 2 aprendimos los comandos mas basicos para trabajar con git y a crea
 Siempre apunta al **último commit de la rama activa**.
 
 ### ¿Que son las Ramas?
+
+<p align="center">
+  <img src="Imagenes/remas.png" alt="Logo de Git" width="450"/>
+</p>
+
 Es un instantaneo del codigo.
 A nivel tecnico es un nuevo apuntador hacia una de las confirmaciones.
 
@@ -76,6 +81,11 @@ A nivel tecnico es un nuevo apuntador hacia una de las confirmaciones.
 ## Clase 3: Merge de Ramas y Conflictos
 
 En la clase 3 aprendimos como fusionar ramas, como solucionar conflictos y las mejores practicas para eliminar ramas.
+
+<p align="center">
+  <img src="Imagenes/merge1.webp" alt="Logo de Git" width="450"/>
+</p>
+
 
 ### Comandos Merge de Ramas
 
@@ -95,6 +105,11 @@ Eliminar ramas es una buena práctica. Las ramas deben crearse con un propósito
 
 ### Conflictos en Git
 
+<p align="center">
+  <img src="Imagenes/conflictos.svg" alt="Logo de Git" width="450"/>
+</p>
+
+
 Cuando Git no puede fusionar automáticamente dos ramas debido a cambios contradictorios, se produce un **conflicto**. Para resolverlo, puedes usar:
 
 - `git diff`: Muestra las diferencias entre las ramas, lo que te ayudará a identificar el conflicto y solucionarlo manualmente si no estas usando Visual Studio Code.
@@ -103,6 +118,11 @@ Cuando Git no puede fusionar automáticamente dos ramas debido a cambios contrad
 
 
 ## Clase 4: Git y GitHub
+
+<p align="center">
+  <img src="Imagenes/gitygithub.png" alt="Logo de Git" width="450"/>
+</p>
+
 
 ### Git
 Git es un sistema de control de versiones que permite gestionar el historial de cambios de un proyecto, nos facilita el trabajo en equipo y el manejo de versiones de manera eficiente.
@@ -123,6 +143,10 @@ Las ramas remotas son las versiones de las ramas que están en el repositorio re
 - `git remote -v`: Muestra las URLs de los remotos configurados.
 
 ### Git Push y Git Pull
+
+<p align="center">
+  <img src="Imagenes/pushpull.png" alt="Logo de Git" width="450"/>
+</p>
 
 #### Diferencia entre `git push` y `git pull`
 
@@ -146,6 +170,12 @@ Las ramas remotas son las versiones de las ramas que están en el repositorio re
 ### Pull Request (PR)
 
 #### ¿Qué es un Pull Request?
+
+<p align="center">
+  <img src="Imagenes/pullrequest.svg" alt="Logo de Git" width="450"/>
+</p>
+
+
 Un *pull request* (PR) es una solicitud para que los cambios hechos en una rama sean revisados y fusionados en el repositorio original. Es una manera de colaborar y contribuir en proyectos.
 
 #### ¿Cómo hacer un Pull Request?
