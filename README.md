@@ -28,6 +28,11 @@ Un control de versiones es un sistema que registra cada cambio que se realiza en
 
 ### ¿Qué es un repositorio?
 El pilar de Git son los **repositorios**. Un repositorio es una carpeta en la que se almacenan las diferentes versiones de los archivos de un proyecto y el historial de los cambios realizados en ellos. Los repositorios pueden ser:
+
+<p align="center">
+  <img src="Imagenes/localremoto.png" alt="Logo de Git" width="250"/>
+</p>
+
 - **Locales**: Están en tu ordenador.
 - **Remotos**: Están en un servidor externo (como GitHub).
 
@@ -61,7 +66,7 @@ Siempre apunta al **último commit de la rama activa**.
 ### ¿Que son las Ramas?
 
 <p align="center">
-  <img src="Imagenes/ramas.png" alt="Logo de Git" width="450"/>
+  <img src="Imagenes/ramas.png" alt="Logo de Git" width="600"/>
 </p>
 
 Es un instantaneo del codigo.
@@ -83,7 +88,7 @@ A nivel tecnico es un nuevo apuntador hacia una de las confirmaciones.
 En la clase 3 aprendimos como fusionar ramas, como solucionar conflictos y las mejores practicas para eliminar ramas.
 
 <p align="center">
-  <img src="Imagenes/merge1.webp" alt="Logo de Git" width="450"/>
+  <img src="Imagenes/merge1.webp" alt="Logo de Git" width="600"/>
 </p>
 
 
@@ -106,7 +111,7 @@ Eliminar ramas es una buena práctica. Las ramas deben crearse con un propósito
 ### Conflictos en Git
 
 <p align="center">
-  <img src="Imagenes/conflictos.svg" alt="Logo de Git" width="450"/>
+  <img src="Imagenes/conflictos.svg" alt="Logo de Git" width="600"/>
 </p>
 
 
@@ -120,7 +125,7 @@ Cuando Git no puede fusionar automáticamente dos ramas debido a cambios contrad
 ## Clase 4: Git y GitHub
 
 <p align="center">
-  <img src="Imagenes/gitygithub.png" alt="Logo de Git" width="450"/>
+  <img src="Imagenes/gitygithub.png" alt="Logo de Git" width="600"/>
 </p>
 
 
@@ -145,7 +150,7 @@ Las ramas remotas son las versiones de las ramas que están en el repositorio re
 ### Git Push y Git Pull
 
 <p align="center">
-  <img src="Imagenes/pushpull.png" alt="Logo de Git" width="450"/>
+  <img src="Imagenes/pushpull.png" alt="Logo de Git" width="600"/>
 </p>
 
 #### Diferencia entre `git push` y `git pull`
@@ -172,7 +177,7 @@ Las ramas remotas son las versiones de las ramas que están en el repositorio re
 #### ¿Qué es un Pull Request?
 
 <p align="center">
-  <img src="Imagenes/pullrequest.svg" alt="Logo de Git" width="450"/>
+  <img src="Imagenes/pullrequest.svg" alt="Logo de Git" width="600"/>
 </p>
 
 
