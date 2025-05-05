@@ -52,7 +52,7 @@ En la clase 2 aprendimos los comandos mas basicos para trabajar con git y a crea
 ### ¿Qué es el HEAD?
 
 <p align="center">
-  <img src="Imagenes/head.png" alt="Logo de Git" width="400"/>
+  <img src="Imagenes/head.png" alt="Logo de Git" width="600"/>
 </p>
 
 `HEAD` es un puntero que indica en qué commit estás actualmente.  
