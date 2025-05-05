@@ -3,7 +3,7 @@
 ✨ El principio de mi proyecto Git
 
 <p align="center">
-  <img src="Imagenes/git.png" alt="Logo de Git" width="250"/>
+  <img src="Imagenes/git.png" alt="Logo de Git" width="500"/>
 </p>
 
 <br>
@@ -30,7 +30,7 @@ Un control de versiones es un sistema que registra cada cambio que se realiza en
 El pilar de Git son los **repositorios**. Un repositorio es una carpeta en la que se almacenan las diferentes versiones de los archivos de un proyecto y el historial de los cambios realizados en ellos. Los repositorios pueden ser:
 
 <p align="center">
-  <img src="Imagenes/localremoto.png" alt="Logo de Git" width="250"/>
+  <img src="Imagenes/localremoto.png" alt="Logo de Git" width="600"/>
 </p>
 
 - **Locales**: Están en tu ordenador.
