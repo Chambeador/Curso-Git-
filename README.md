@@ -3,7 +3,7 @@
 ✨ El principio de mi proyecto Git
 
 <p align="center">
-  <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="Logo de Git" width="250"/>
+  <img src="Imagenes/git.png" alt="Logo de Git" width="250"/>
 </p>
 
 <br>
@@ -50,6 +50,11 @@ En la clase 2 aprendimos los comandos mas basicos para trabajar con git y a crea
 - `git commit --amend -m "nuevo mensaje"`: Reemplaza el mensaje del último commit.
 
 ### ¿Qué es el HEAD?
+
+<p align="center">
+  <img src="Imagenes/head.png" alt="Logo de Git" width="250"/>
+</p>
+
 `HEAD` es un puntero que indica en qué commit estás actualmente.  
 Siempre apunta al **último commit de la rama activa**.
 
