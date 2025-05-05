@@ -61,7 +61,7 @@ Siempre apunta al **último commit de la rama activa**.
 ### ¿Que son las Ramas?
 
 <p align="center">
-  <img src="Imagenes/remas.png" alt="Logo de Git" width="450"/>
+  <img src="Imagenes/ramas.png" alt="Logo de Git" width="450"/>
 </p>
 
 Es un instantaneo del codigo.
