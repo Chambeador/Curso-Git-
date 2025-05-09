@@ -313,3 +313,51 @@ Vimos como podemos deshacer cambios en distintas situaciones, como cuando algo d
 - `git revert <SHA>`: Revierte un commit específico utilizando su **SHA**, creando un nuevo commit que deshace sus cambios.
 - `git checkout HEAD~N`: Recupera archivos o código de un **commit anterior**.
 - `git checkout <SHA>`: Recupera archivos o código de un commit específico utilizando el **SHA**.
+
+
+## Clase 8: Hooks, Alias y Trucos de Git
+
+### ¿Qué es un Hook?
+
+<p align="center">
+  <img src="Imagenes/hock.webp" alt="Logo de Git" width="600"/>
+</p>
+
+Los **hooks** permiten ejecutar scripts cuando ocurren eventos específicos en Git.
+
+#### Hooks del cliente
+- **commit-msg**: Validar el mensaje de commit.
+- **post-commit**: Notificación (ej. Slack).
+- **pre-commit**: Verificar commits o ejecutar linters.
+- **pre-push**: Ejecutar pruebas antes de hacer push.
+
+#### Hooks del servidor
+- **pre-receive**: Validar commits y permisos.
+- **post-receive**: Notificar cambios o actualizar la UI.
+
+### ¿Qué es un Alias?
+
+Los **alias** permiten crear comandos personalizados para simplificar tareas.
+#### ¿Cómo crear un alias?
+
+<p align="center">
+  <img src="Imagenes/alias.png" alt="Logo de Git" width="600"/>
+</p>
+
+Puedes crear un alias usando el comando `git config`, el cual permite configurar parámetros globales o específicos del repositorio. Para definir un alias globalmente (es decir, para todos los repositorios), puedes usar el siguiente comando:
+
+git config --global alias.<nombre_del_alias> "<comando>"
+
+### Trucos en Git
+
+- **Guardar cambios temporalmente**: 
+  - `git stash`: Guarda cambios no confirmados.
+  - `git stash pop`: Recupera cambios guardados.
+- **Aplicar cambios de commits específicos**: 
+  - `git cherry-pick <SHA>`
+- **Encontrar el commit que introdujo un bug**: 
+  - `git bisect`
+- **Cambiar el mensaje de un commit**: 
+  - `git commit --amend -m "<mensaje>"`
+- **Recuperar un archivo de otra rama o commit**: 
+  - `git checkout <SHA> <archivo>`
