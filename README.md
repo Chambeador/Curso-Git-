@@ -305,8 +305,11 @@ Vimos como podemos deshacer cambios en distintas situaciones, como cuando algo d
   <img src="Imagenes/git revert.webp" alt="Logo de Git" width="600"/>
 </p>
 
-- `git reset --soft HEAD~N`: deshace commits pero guarda los cambios.
-- `git reset --hard HEAD~N`: deshace commits y borra los cambios.
-- `git reset --soft <SHA>` / `git reset --hard <SHA>`: lo mismo, pero con SHA.
-- `git revert HEAD~N` o `git revert <SHA>`: revierte un commit con otro nuevo.
-- `git checkout HEAD~N` o `git checkout <SHA>`: recupera archivos o código puntual de un commit pasado.
+- `git reset --soft HEAD~N`: Deshace N commits pero **mantiene los cambios** en tu directorio de trabajo.
+- `git reset --hard HEAD~N`: Deshace N commits **y borra los cambios** del directorio de trabajo.
+- `git reset --soft <SHA>`: Deshace commits hasta el commit especificado por su **SHA**, pero **mantiene los cambios**.
+- `git reset --hard <SHA>`: Deshace hasta el commit especificado por su **SHA** y **borra los cambios**.
+- `git revert HEAD~N`: Revierte los cambios del **padre** del commit actual, creando un **nuevo commit** que deshace esos cambios.
+- `git revert <SHA>`: Revierte un commit específico utilizando su **SHA**, creando un nuevo commit que deshace sus cambios.
+- `git checkout HEAD~N`: Recupera archivos o código de un **commit anterior**.
+- `git checkout <SHA>`: Recupera archivos o código de un commit específico utilizando el **SHA**.
