@@ -284,3 +284,29 @@ El nombre de la rama debe ser consistente y describir claramente la acción que 
 **Ejemplos de nombres de ramas:**
 - `feature/add-user-login`    
 - `refactor/api-endpoints`
+
+## Clase 7: Deshacer Cambios en Git
+
+Vimos como podemos deshacer cambios en distintas situaciones, como cuando algo deja de funcionar o queremos recuperar código eliminado.
+
+### ¿Cuándo deshacer cambios?
+
+- El proyecto deja de funcionar.
+- Borramos algo que no debíamos.
+- Queremos volver a un estado anterior del código.
+
+### Comandos destructivos vs no destructivos
+
+- **Destructivos**: modifican el historial (`git reset`).
+- **No destructivos**: no lo tocan, solo crean nuevos commits (`git revert`, `git checkout`).
+
+### Comandos útiles
+<p align="center">
+  <img src="Imagenes/git revert.webp" alt="Logo de Git" width="600"/>
+</p>
+
+- `git reset --soft HEAD~N`: deshace commits pero guarda los cambios.
+- `git reset --hard HEAD~N`: deshace commits y borra los cambios.
+- `git reset --soft <SHA>` / `git reset --hard <SHA>`: lo mismo, pero con SHA.
+- `git revert HEAD~N` o `git revert <SHA>`: revierte un commit con otro nuevo.
+- `git checkout HEAD~N` o `git checkout <SHA>`: recupera archivos o código puntual de un commit pasado.
