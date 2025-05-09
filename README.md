@@ -197,3 +197,53 @@ Un *pull request* (PR) es una solicitud para que los cambios hechos en una rama 
 ### Fork(Adicional)
 
 Un *fork* es una copia de un repositorio en tu cuenta de GitHub. Se utiliza para hacer cambios sin afectar el repositorio original, y es comúnmente utilizado para contribuir a proyectos de código abierto.
+
+
+
+
+
+
+
+
+
+## Clase 6: Buenas Prácticas en Git
+
+En esta clase aprendimos la importancia de seguir buenas prácticas al usar Git, tanto al escribir commits como al nombrar ramas.
+
+### ¿Por qué seguir buenas prácticas?
+
+- Es un estándar en la mayoría de equipos de desarrollo.
+- Facilita resolver conflictos durante el desarrollo.
+- Mantiene un historial de commits legible y organizado.
+
+### Escribir Commits Correctamente
+
+Los commits deben hacerse con frecuencia y seguir ciertas reglas para ser claros y útiles.
+
+**Buenas prácticas:**
+- Usar verbo en imperativo: `add`, `change`, `fix`, etc.
+- No usar punto final.
+- No exceder los 50 caracteres.
+- Escribir todo en minúscula.
+- Agregar contexto en el cuerpo del commit si es necesario.
+
+**Tipos comunes de commits:**
+- `feat`: nueva funcionalidad  
+- `fix`: corrección de errores  
+- `docs`: documentación  
+- `style`: cambios de formato o estilo  
+- `refactor`: reestructuración del código  
+- `test`: pruebas  
+- `build`: cambios en el sistema de build  
+- `ci`: configuración de integración continua
+
+**Ejemplos:**
+- `feat(backend): add filter for cars`  
+- `fix(web): remove wrong color`
+
+### Nombrar Ramas Correctamente
+El nombre de la rama debe ser consistente y describir claramente la acción que se realizará.
+
+**Ejemplos de nombres de ramas:**
+- `feature/add-user-login`    
+- `refactor/api-endpoints`
