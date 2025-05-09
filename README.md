@@ -198,13 +198,50 @@ Un *pull request* (PR) es una solicitud para que los cambios hechos en una rama 
 
 Un *fork* es una copia de un repositorio en tu cuenta de GitHub. Se utiliza para hacer cambios sin afectar el repositorio original, y es comúnmente utilizado para contribuir a proyectos de código abierto.
 
+## Clase 5: Flujos de Trabajo en Git
+
+Aprendimos diferentes formas de trabajar en equipo usando Git para mantener el orden y evitar errores.
+
+### Git Flow
+
+<p align="center">
+  <img src="Imagenes/gitflow.png" alt="Logo de Git" width="600"/>
+</p>
+
+Usa varias ramas con funciones claras:
+
+- `main`: código en producción.
+- `develop`: código listo para probar.
+- `feature`: nuevas funcionalidades.
+- `release`: ajustes finales.
+- `hotfix`: arreglos urgentes.
+
+### GitHub Flow
+
+<p align="center">
+  <img src="Imagenes/githubflow.png" alt="Logo de Git" width="600"/>
+</p>
 
 
+Solo se usa `main` y ramas pequeñas que se integran por Pull Request.
 
+### Trunk Based Development
 
+<p align="center">
+  <img src="Imagenes/trunkflow.gif" alt="Logo de Git" width="600"/>
+</p>
 
+Solo se usa `main` y ramas muy cortas. Ideal con buen CI/CD.
 
+### Ship / Show / Ask
 
+Formas de fusionar cambios:
+
+- **Ship**: directo a `main`.
+- **Show**: se muestra con PR pero se fusiona rápido.
+- **Ask**: se discute antes de fusionar.
+
+Este método funciona si hay confianza en el equipo, buenas prácticas y CI/CD que revisa el código automáticamente.
 
 ## Clase 6: Buenas Prácticas en Git
 
